@@ -3,7 +3,7 @@ import axios from "axios";
 const baseURL =
   process.env.NODE_ENV === "development"
     ? "http://localhost:9999"
-    : "https://mulili.github.io";
+    : "https://mulili.github.io/travel";
 
 const commonURL = "/mock";
 
