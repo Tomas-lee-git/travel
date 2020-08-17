@@ -5,11 +5,9 @@ node_js:
   - 12
 cache:
   directories:
-    - travel/node_modules
+    - node_modules
 
 # install
-before_install:
-  - cd travel
 install:
   - npm install
 
